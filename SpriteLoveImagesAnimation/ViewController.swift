@@ -17,9 +17,7 @@ class ViewController: UIViewController {
         imageView.translatesAutoresizingMaskIntoConstraints = false
         return imageView
     }()
-    
     var spriteImages  = [UIImage]()
-    var isClicked = false
     
     override func viewDidLoad() {
         super.viewDidLoad()
